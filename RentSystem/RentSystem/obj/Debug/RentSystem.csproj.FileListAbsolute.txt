@@ -1,0 +1,241 @@
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\RentSystem.exe.config
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\RentSystem.exe
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\RentSystem.pdb
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.DevExpress.dll
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.dll
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\MaterialDesignColors.dll
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.xml
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Admin\Desktop\RentSystem\RentSystem\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\Pages\CatalogPage.g.cs
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\Pages\MainPage.g.cs
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\Pages\RegistrationPage.g.cs
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem_Content.g.cs
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem_MarkupCompile.cache
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem_MarkupCompile.lref
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\App.baml
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\Pages\CatalogPage.baml
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\Pages\LoginPage.baml
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\Pages\MainPage.baml
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\Pages\RegistrationPage.baml
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.g.resources
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.Properties.Resources.resources
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.Up2Date
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.exe
+C:\Users\Admin\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.pdb
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\Pages\CatalogPage.g.cs
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\Pages\MainPage.g.cs
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\Pages\RegistrationPage.g.cs
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\App.g.cs
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem_Content.g.cs
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem_MarkupCompile.cache
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem_MarkupCompile.lref
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.exe
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.pdb
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\RentSystem.exe.config
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\RentSystem.exe
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\RentSystem.pdb
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.DevExpress.dll
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.dll
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\EntityFramework.dll
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\MaterialDesignColors.dll
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.xml
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\EntityFramework.xml
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\App.baml
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\MainWindow.baml
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\Pages\CatalogPage.baml
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\Pages\LoginPage.baml
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\Pages\MainPage.baml
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\Pages\RegistrationPage.baml
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.g.resources
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.Properties.Resources.resources
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.GenerateResource.cache
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Desktop\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.Up2Date
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.AssemblyReference.cache
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\MainWindow.g.cs
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\Pages\CatalogPage.g.cs
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\Pages\MainPage.g.cs
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\Pages\RegistrationPage.g.cs
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\App.g.cs
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\RentSystem_MarkupCompile.cache
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\RentSystem_MarkupCompile.lref
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\RentSystem_Content.g.cs
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\RentSystem.exe.config
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\RentSystem.exe
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\RentSystem.pdb
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.DevExpress.dll
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.dll
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\EntityFramework.dll
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\MaterialDesignColors.dll
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.xml
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\EntityFramework.xml
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\App.baml
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\MainWindow.baml
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\Pages\CatalogPage.baml
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\Pages\LoginPage.baml
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\Pages\MainPage.baml
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\Pages\RegistrationPage.baml
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\RentSystem.g.resources
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\RentSystem.Properties.Resources.resources
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.GenerateResource.cache
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.CoreCompileInputs.cache
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.Up2Date
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\RentSystem.exe
+C:\Users\Ибрагим\Desktop\visual studio\RentSystem\RentSystem\obj\Debug\RentSystem.pdb
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\RentSystem.exe.config
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\RentSystem.exe
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\RentSystem.pdb
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.DevExpress.dll
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.dll
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\EntityFramework.dll
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\MaterialDesignColors.dll
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.xml
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\EntityFramework.xml
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\CatalogPage.g.cs
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\MainPage.g.cs
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\RegistrationPage.g.cs
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\App.g.cs
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem_Content.g.cs
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem_MarkupCompile.cache
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem_MarkupCompile.lref
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\App.baml
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\MainWindow.baml
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\CatalogPage.baml
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\LoginPage.baml
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\MainPage.baml
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\RegistrationPage.baml
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.g.resources
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.Properties.Resources.resources
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.GenerateResource.cache
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.Up2Date
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.exe
+C:\Users\Admin\OneDrive\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.pdb
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\RentSystem.exe.config
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\RentSystem.exe
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\RentSystem.pdb
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.DevExpress.dll
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.dll
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\EntityFramework.dll
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\MaterialDesignColors.dll
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.xml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\EntityFramework.xml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.AssemblyReference.cache
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\MainWindow.g.cs
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\CatalogPage.g.cs
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\HomePage.g.cs
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\MainPage.g.cs
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\RegistrationPage.g.cs
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\App.g.cs
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem_Content.g.cs
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem_MarkupCompile.cache
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem_MarkupCompile.lref
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\App.baml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\MainWindow.baml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\CatalogPage.baml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\HomePage.baml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\LoginPage.baml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\MainPage.baml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\RegistrationPage.baml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.g.resources
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.Properties.Resources.resources
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.GenerateResource.cache
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.CoreCompileInputs.cache
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.csproj.Up2Date
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.exe
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\RentSystem.pdb
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\BasketPage.g.cs
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\BasketPage.baml
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\AddCarPage.g.cs
+C:\Users\Ибрагим\Desktop\качали\RentSystem\RentSystem\obj\Debug\Pages\AddCarPage.baml

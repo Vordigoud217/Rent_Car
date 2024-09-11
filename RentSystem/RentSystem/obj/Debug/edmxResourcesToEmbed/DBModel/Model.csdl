@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Car_Rent_SystemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Car_Rent_SystemEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AuditRentalData" EntityType="Car_Rent_SystemModel.AuditRentalData" />
+    <EntitySet Name="Brands" EntityType="Car_Rent_SystemModel.Brands" />
+    <EntitySet Name="Car_specifications" EntityType="Car_Rent_SystemModel.Car_specifications" />
+    <EntitySet Name="Car_Status" EntityType="Car_Rent_SystemModel.Car_Status" />
+    <EntitySet Name="Cars" EntityType="Car_Rent_SystemModel.Cars" />
+    <EntitySet Name="Clients" EntityType="Car_Rent_SystemModel.Clients" />
+    <EntitySet Name="ManagerRents" EntityType="Car_Rent_SystemModel.ManagerRents" />
+    <EntitySet Name="Managers" EntityType="Car_Rent_SystemModel.Managers" />
+    <EntitySet Name="Models" EntityType="Car_Rent_SystemModel.Models" />
+    <EntitySet Name="Payments" EntityType="Car_Rent_SystemModel.Payments" />
+    <EntitySet Name="Rental_data" EntityType="Car_Rent_SystemModel.Rental_data" />
+    <EntitySet Name="RentDetails" EntityType="Car_Rent_SystemModel.RentDetails" />
+    <EntitySet Name="Role" EntityType="Car_Rent_SystemModel.Role" />
+    <EntitySet Name="Services" EntityType="Car_Rent_SystemModel.Services" />
+    <EntitySet Name="sysdiagrams" EntityType="Car_Rent_SystemModel.sysdiagrams" />
+    <EntitySet Name="Tariff" EntityType="Car_Rent_SystemModel.Tariff" />
+    <EntitySet Name="Users" EntityType="Car_Rent_SystemModel.Users" />
+    <AssociationSet Name="FK_Model_Brand_ID" Association="Car_Rent_SystemModel.FK_Model_Brand_ID">
+      <End Role="Brands" EntitySet="Brands" />
+      <End Role="Models" EntitySet="Models" />
+    </AssociationSet>
+    <AssociationSet Name="PK_Car_specifications_Brand_ID" Association="Car_Rent_SystemModel.PK_Car_specifications_Brand_ID">
+      <End Role="Brands" EntitySet="Brands" />
+      <End Role="Car_specifications" EntitySet="Car_specifications" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Car_specifications_Model_ID" Association="Car_Rent_SystemModel.FK_Car_specifications_Model_ID">
+      <End Role="Models" EntitySet="Models" />
+      <End Role="Car_specifications" EntitySet="Car_specifications" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cars_Spec_ID" Association="Car_Rent_SystemModel.FK_Cars_Spec_ID">
+      <End Role="Car_specifications" EntitySet="Car_specifications" />
+      <End Role="Cars" EntitySet="Cars" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cars_Car_Status_ID" Association="Car_Rent_SystemModel.FK_Cars_Car_Status_ID">
+      <End Role="Car_Status" EntitySet="Car_Status" />
+      <End Role="Cars" EntitySet="Cars" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cars_Tariff_ID" Association="Car_Rent_SystemModel.FK_Cars_Tariff_ID">
+      <End Role="Tariff" EntitySet="Tariff" />
+      <End Role="Cars" EntitySet="Cars" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rental_data_Car_ID" Association="Car_Rent_SystemModel.FK_Rental_data_Car_ID">
+      <End Role="Cars" EntitySet="Cars" />
+      <End Role="Rental_data" EntitySet="Rental_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rental_data_Client_ID" Association="Car_Rent_SystemModel.FK_Rental_data_Client_ID">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Rental_data" EntitySet="Rental_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ManagerRents_Manager_ID" Association="Car_Rent_SystemModel.FK_ManagerRents_Manager_ID">
+      <End Role="Managers" EntitySet="Managers" />
+      <End Role="ManagerRents" EntitySet="ManagerRents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ManagerRents_Rent_ID" Association="Car_Rent_SystemModel.FK_ManagerRents_Rent_ID">
+      <End Role="Rental_data" EntitySet="Rental_data" />
+      <End Role="ManagerRents" EntitySet="ManagerRents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payments_Rent_ID" Association="Car_Rent_SystemModel.FK_Payments_Rent_ID">
+      <End Role="Rental_data" EntitySet="Rental_data" />
+      <End Role="Payments" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rent_ID" Association="Car_Rent_SystemModel.FK_Rent_ID">
+      <End Role="Rental_data" EntitySet="Rental_data" />
+      <End Role="RentDetails" EntitySet="RentDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rental_data_Service_ID" Association="Car_Rent_SystemModel.FK_Rental_data_Service_ID">
+      <End Role="Services" EntitySet="Services" />
+      <End Role="Rental_data" EntitySet="Rental_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Service_ID" Association="Car_Rent_SystemModel.FK_Service_ID">
+      <End Role="Services" EntitySet="Services" />
+      <End Role="RentDetails" EntitySet="RentDetails" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AuditRentalData">
+    <Key>
+      <PropertyRef Name="AuditID" />
+    </Key>
+    <Property Name="AuditID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Operation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Rent_ID" Type="Int32" />
+    <Property Name="Car_ID" Type="Int32" />
+    <Property Name="Client_ID" Type="Int32" />
+    <Property Name="Service_ID" Type="Int32" />
+    <Property Name="Rent_Start_Date" Type="DateTime" Precision="3" />
+    <Property Name="Rent_End_Date" Type="DateTime" Precision="3" />
+    <Property Name="Total_Rent_Cost" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Brands">
+    <Key>
+      <PropertyRef Name="Brand_ID" />
+    </Key>
+    <Property Name="Brand_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BrandName" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Models" Relationship="Car_Rent_SystemModel.FK_Model_Brand_ID" FromRole="Brands" ToRole="Models" />
+    <NavigationProperty Name="Car_specifications" Relationship="Car_Rent_SystemModel.PK_Car_specifications_Brand_ID" FromRole="Brands" ToRole="Car_specifications" />
+  </EntityType>
+  <EntityType Name="Car_specifications">
+    <Key>
+      <PropertyRef Name="Spec_ID" />
+    </Key>
+    <Property Name="Spec_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Model_ID" Type="Int32" Nullable="false" />
+    <Property Name="Engine" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Transmission" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="DriveUnit" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="ImageCar" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Brand_ID" Type="Int32" />
+    <NavigationProperty Name="Brands" Relationship="Car_Rent_SystemModel.PK_Car_specifications_Brand_ID" FromRole="Car_specifications" ToRole="Brands" />
+    <NavigationProperty Name="Models" Relationship="Car_Rent_SystemModel.FK_Car_specifications_Model_ID" FromRole="Car_specifications" ToRole="Models" />
+    <NavigationProperty Name="Cars" Relationship="Car_Rent_SystemModel.FK_Cars_Spec_ID" FromRole="Car_specifications" ToRole="Cars" />
+  </EntityType>
+  <EntityType Name="Car_Status">
+    <Key>
+      <PropertyRef Name="Car_Status_ID" />
+    </Key>
+    <Property Name="Car_Status_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Car_Status_Description" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Cars" Relationship="Car_Rent_SystemModel.FK_Cars_Car_Status_ID" FromRole="Car_Status" ToRole="Cars" />
+  </EntityType>
+  <EntityType Name="Cars">
+    <Key>
+      <PropertyRef Name="Car_ID" />
+    </Key>
+    <Property Name="Car_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Spec_ID" Type="Int32" Nullable="false" />
+    <Property Name="Car_Status_ID" Type="Int32" />
+    <Property Name="Tariff_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Car_specifications" Relationship="Car_Rent_SystemModel.FK_Cars_Spec_ID" FromRole="Cars" ToRole="Car_specifications" />
+    <NavigationProperty Name="Car_Status" Relationship="Car_Rent_SystemModel.FK_Cars_Car_Status_ID" FromRole="Cars" ToRole="Car_Status" />
+    <NavigationProperty Name="Tariff" Relationship="Car_Rent_SystemModel.FK_Cars_Tariff_ID" FromRole="Cars" ToRole="Tariff" />
+    <NavigationProperty Name="Rental_data" Relationship="Car_Rent_SystemModel.FK_Rental_data_Car_ID" FromRole="Cars" ToRole="Rental_data" />
+  </EntityType>
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="Client_ID" />
+    </Key>
+    <Property Name="Client_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Surname" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="DeliveryAdress" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="DrivingExperience" Type="Int32" />
+    <Property Name="Phone" Type="Decimal" Precision="12" Scale="0" />
+    <Property Name="EMail" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="BirthDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Rental_data" Relationship="Car_Rent_SystemModel.FK_Rental_data_Client_ID" FromRole="Clients" ToRole="Rental_data" />
+  </EntityType>
+  <EntityType Name="ManagerRents">
+    <Key>
+      <PropertyRef Name="ManagerRent_ID" />
+    </Key>
+    <Property Name="ManagerRent_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Manager_ID" Type="Int32" Nullable="false" />
+    <Property Name="Rent_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Managers" Relationship="Car_Rent_SystemModel.FK_ManagerRents_Manager_ID" FromRole="ManagerRents" ToRole="Managers" />
+    <NavigationProperty Name="Rental_data" Relationship="Car_Rent_SystemModel.FK_ManagerRents_Rent_ID" FromRole="ManagerRents" ToRole="Rental_data" />
+  </EntityType>
+  <EntityType Name="Managers">
+    <Key>
+      <PropertyRef Name="Manager_ID" />
+    </Key>
+    <Property Name="Manager_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="SecondName" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Age" Type="Int32" />
+    <NavigationProperty Name="ManagerRents" Relationship="Car_Rent_SystemModel.FK_ManagerRents_Manager_ID" FromRole="Managers" ToRole="ManagerRents" />
+  </EntityType>
+  <EntityType Name="Models">
+    <Key>
+      <PropertyRef Name="Model_ID" />
+    </Key>
+    <Property Name="Model_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ModelName" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Release_Year" Type="Int32" Nullable="false" />
+    <Property Name="Colour" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Brand_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Brands" Relationship="Car_Rent_SystemModel.FK_Model_Brand_ID" FromRole="Models" ToRole="Brands" />
+    <NavigationProperty Name="Car_specifications" Relationship="Car_Rent_SystemModel.FK_Car_specifications_Model_ID" FromRole="Models" ToRole="Car_specifications" />
+  </EntityType>
+  <EntityType Name="Payments">
+    <Key>
+      <PropertyRef Name="Payment_ID" />
+    </Key>
+    <Property Name="Payment_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Rent_ID" Type="Int32" Nullable="false" />
+    <Property Name="Payment_Date" Type="DateTime" Precision="3" />
+    <Property Name="Payment_Status" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Payment_Amount" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="Rental_data" Relationship="Car_Rent_SystemModel.FK_Payments_Rent_ID" FromRole="Payments" ToRole="Rental_data" />
+  </EntityType>
+  <EntityType Name="Rental_data">
+    <Key>
+      <PropertyRef Name="Rent_ID" />
+    </Key>
+    <Property Name="Rent_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Car_ID" Type="Int32" Nullable="false" />
+    <Property Name="Client_ID" Type="Int32" Nullable="false" />
+    <Property Name="Service_ID" Type="Int32" />
+    <Property Name="Rent_Start_Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Rent_End_Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Total_Rent_Cost" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="Cars" Relationship="Car_Rent_SystemModel.FK_Rental_data_Car_ID" FromRole="Rental_data" ToRole="Cars" />
+    <NavigationProperty Name="Clients" Relationship="Car_Rent_SystemModel.FK_Rental_data_Client_ID" FromRole="Rental_data" ToRole="Clients" />
+    <NavigationProperty Name="ManagerRents" Relationship="Car_Rent_SystemModel.FK_ManagerRents_Rent_ID" FromRole="Rental_data" ToRole="ManagerRents" />
+    <NavigationProperty Name="Payments" Relationship="Car_Rent_SystemModel.FK_Payments_Rent_ID" FromRole="Rental_data" ToRole="Payments" />
+    <NavigationProperty Name="RentDetails" Relationship="Car_Rent_SystemModel.FK_Rent_ID" FromRole="Rental_data" ToRole="RentDetails" />
+    <NavigationProperty Name="Services" Relationship="Car_Rent_SystemModel.FK_Rental_data_Service_ID" FromRole="Rental_data" ToRole="Services" />
+  </EntityType>
+  <EntityType Name="RentDetails">
+    <Key>
+      <PropertyRef Name="RentDetails_ID" />
+    </Key>
+    <Property Name="RentDetails_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Rent_ID" Type="Int32" />
+    <Property Name="Service_ID" Type="Int32" />
+    <NavigationProperty Name="Rental_data" Relationship="Car_Rent_SystemModel.FK_Rent_ID" FromRole="RentDetails" ToRole="Rental_data" />
+    <NavigationProperty Name="Services" Relationship="Car_Rent_SystemModel.FK_Service_ID" FromRole="RentDetails" ToRole="Services" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Services">
+    <Key>
+      <PropertyRef Name="Service_ID" />
+    </Key>
+    <Property Name="Service_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceName" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Service_Description" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="Service_Cost" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="Rental_data" Relationship="Car_Rent_SystemModel.FK_Rental_data_Service_ID" FromRole="Services" ToRole="Rental_data" />
+    <NavigationProperty Name="RentDetails" Relationship="Car_Rent_SystemModel.FK_Service_ID" FromRole="Services" ToRole="RentDetails" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tariff">
+    <Key>
+      <PropertyRef Name="Tariff_ID" />
+    </Key>
+    <Property Name="Tariff_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Daily_Cost" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Daily_Cost_Per_Week" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Daily_Cost_Per_Month" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="Cars" Relationship="Car_Rent_SystemModel.FK_Cars_Tariff_ID" FromRole="Tariff" ToRole="Cars" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="PhoneNumber" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Login" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="RoleID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Model_Brand_ID">
+    <End Type="Car_Rent_SystemModel.Brands" Role="Brands" Multiplicity="1" />
+    <End Type="Car_Rent_SystemModel.Models" Role="Models" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Brands">
+        <PropertyRef Name="Brand_ID" />
+      </Principal>
+      <Dependent Role="Models">
+        <PropertyRef Name="Brand_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PK_Car_specifications_Brand_ID">
+    <End Type="Car_Rent_SystemModel.Brands" Role="Brands" Multiplicity="0..1" />
+    <End Type="Car_Rent_SystemModel.Car_specifications" Role="Car_specifications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Brands">
+        <PropertyRef Name="Brand_ID" />
+      </Principal>
+      <Dependent Role="Car_specifications">
+        <PropertyRef Name="Brand_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Car_specifications_Model_ID">
+    <End Type="Car_Rent_SystemModel.Models" Role="Models" Multiplicity="1" />
+    <End Type="Car_Rent_SystemModel.Car_specifications" Role="Car_specifications" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Models">
+        <PropertyRef Name="Model_ID" />
+      </Principal>
+      <Dependent Role="Car_specifications">
+        <PropertyRef Name="Model_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cars_Spec_ID">
+    <End Type="Car_Rent_SystemModel.Car_specifications" Role="Car_specifications" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Car_Rent_SystemModel.Cars" Role="Cars" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Car_specifications">
+        <PropertyRef Name="Spec_ID" />
+      </Principal>
+      <Dependent Role="Cars">
+        <PropertyRef Name="Spec_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cars_Car_Status_ID">
+    <End Type="Car_Rent_SystemModel.Car_Status" Role="Car_Status" Multiplicity="0..1" />
+    <End Type="Car_Rent_SystemModel.Cars" Role="Cars" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Car_Status">
+        <PropertyRef Name="Car_Status_ID" />
+      </Principal>
+      <Dependent Role="Cars">
+        <PropertyRef Name="Car_Status_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cars_Tariff_ID">
+    <End Type="Car_Rent_SystemModel.Tariff" Role="Tariff" Multiplicity="1" />
+    <End Type="Car_Rent_SystemModel.Cars" Role="Cars" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tariff">
+        <PropertyRef Name="Tariff_ID" />
+      </Principal>
+      <Dependent Role="Cars">
+        <PropertyRef Name="Tariff_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rental_data_Car_ID">
+    <End Type="Car_Rent_SystemModel.Cars" Role="Cars" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Car_Rent_SystemModel.Rental_data" Role="Rental_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cars">
+        <PropertyRef Name="Car_ID" />
+      </Principal>
+      <Dependent Role="Rental_data">
+        <PropertyRef Name="Car_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rental_data_Client_ID">
+    <End Type="Car_Rent_SystemModel.Clients" Role="Clients" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Car_Rent_SystemModel.Rental_data" Role="Rental_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="Client_ID" />
+      </Principal>
+      <Dependent Role="Rental_data">
+        <PropertyRef Name="Client_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ManagerRents_Manager_ID">
+    <End Type="Car_Rent_SystemModel.Managers" Role="Managers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Car_Rent_SystemModel.ManagerRents" Role="ManagerRents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Managers">
+        <PropertyRef Name="Manager_ID" />
+      </Principal>
+      <Dependent Role="ManagerRents">
+        <PropertyRef Name="Manager_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ManagerRents_Rent_ID">
+    <End Type="Car_Rent_SystemModel.Rental_data" Role="Rental_data" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Car_Rent_SystemModel.ManagerRents" Role="ManagerRents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rental_data">
+        <PropertyRef Name="Rent_ID" />
+      </Principal>
+      <Dependent Role="ManagerRents">
+        <PropertyRef Name="Rent_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payments_Rent_ID">
+    <End Type="Car_Rent_SystemModel.Rental_data" Role="Rental_data" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Car_Rent_SystemModel.Payments" Role="Payments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rental_data">
+        <PropertyRef Name="Rent_ID" />
+      </Principal>
+      <Dependent Role="Payments">
+        <PropertyRef Name="Rent_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rent_ID">
+    <End Type="Car_Rent_SystemModel.Rental_data" Role="Rental_data" Multiplicity="0..1" />
+    <End Type="Car_Rent_SystemModel.RentDetails" Role="RentDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rental_data">
+        <PropertyRef Name="Rent_ID" />
+      </Principal>
+      <Dependent Role="RentDetails">
+        <PropertyRef Name="Rent_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rental_data_Service_ID">
+    <End Type="Car_Rent_SystemModel.Services" Role="Services" Multiplicity="0..1" />
+    <End Type="Car_Rent_SystemModel.Rental_data" Role="Rental_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Services">
+        <PropertyRef Name="Service_ID" />
+      </Principal>
+      <Dependent Role="Rental_data">
+        <PropertyRef Name="Service_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Service_ID">
+    <End Type="Car_Rent_SystemModel.Services" Role="Services" Multiplicity="0..1" />
+    <End Type="Car_Rent_SystemModel.RentDetails" Role="RentDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Services">
+        <PropertyRef Name="Service_ID" />
+      </Principal>
+      <Dependent Role="RentDetails">
+        <PropertyRef Name="Service_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

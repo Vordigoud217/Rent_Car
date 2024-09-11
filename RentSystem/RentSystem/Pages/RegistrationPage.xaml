@@ -1,0 +1,87 @@
+﻿<Page x:Class="RentSystem.Pages.RegistrationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RentSystem.Pages"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="RegistrationPage">
+
+    <Grid>
+        <Border MinWidth="400"
+                MaxWidth="500"
+                VerticalAlignment="Center"
+                Padding="85"
+                CornerRadius="50"
+                BorderThickness="3"
+                Opacity="0.95">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#060531" Offset="0"/>
+                    <GradientStop Color="#1B1448" Offset="0.65"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#462AD8" Offset="0.3"/>
+                    <GradientStop Color="#DA34AE" Offset="0.65"/>
+                    <GradientStop Color="#8A16C1" Offset="0.95"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Border.Effect >
+                <DropShadowEffect BlurRadius="30"
+                                  Color="BlueViolet"/>
+            </Border.Effect>
+
+            <StackPanel >
+                <TextBlock Text="Регистрация"
+                           Foreground="Beige"
+                           FontSize="25"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"
+                           Margin="0, 0, 0, 0"/>
+                <materialDesign:PackIcon Kind="AccountPlus"
+                           Margin="65, -20, 0, 0"
+                           Foreground="Beige"/>
+
+                <TextBox x:Name="TBFIO"
+                         Foreground="Beige"
+                         materialDesign:HintAssist.Hint="Введите ваше ФИО"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <TextBox x:Name="TBPhoneNumber"
+                         Foreground="Beige"
+                         materialDesign:HintAssist.Hint="Номер телефона"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <TextBox x:Name="TBLogin"
+                         Foreground="Beige"
+                         materialDesign:HintAssist.Hint="Логин"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <PasswordBox
+                        x:Name="TBPassword"
+                        Foreground="Beige"
+                        materialDesign:HintAssist.Hint="Пароль"
+                        materialDesign:PasswordBoxAssist.Password="{Binding Password2, Mode=TwoWay}"
+                        materialDesign:TextFieldAssist.HasClearButton="True"
+                        Style="{StaticResource MaterialDesignFloatingHintRevealPasswordBox}"/>
+                <Button x:Name="BRegistrationPage"
+                        Foreground="Wheat"
+                        Background="MediumSlateBlue"
+                        HorizontalAlignment="Stretch"
+                        Content="Зарегистрироваться"
+                        Click="BRegistrationPage_Click"
+                        Margin="0, 5 0, 0"/>
+                <Grid Margin="0, 5, 0, 0">
+                    <Button x:Name="BBack"
+                            HorizontalAlignment="Stretch"
+                            Foreground="Wheat"
+                            Background="MediumSlateBlue"
+                            Content="Назад"
+                            Style="{StaticResource MaterialDesignFlatButton }"
+                            Click="BBack_Click"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

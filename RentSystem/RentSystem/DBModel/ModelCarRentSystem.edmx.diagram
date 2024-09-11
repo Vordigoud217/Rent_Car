@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="be0ad61f08b343f391708c8f6b10b40f" Name="Diagram1" ZoomLevel="95">
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.AuditRentalData" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Brands" Width="1.5" PointX="0.75" PointY="3.625" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Car_specifications" Width="1.5" PointX="5.25" PointY="5" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Car_Status" Width="1.5" PointX="5.25" PointY="2" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Cars" Width="1.5" PointX="7.5" PointY="5.625" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Clients" Width="1.5" PointX="7.75" PointY="15.625" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.DriveUnits" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Engines" Width="1.5" PointX="3" PointY="3.625" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.ManagerRents" Width="1.5" PointX="12.25" PointY="12" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Managers" Width="1.5" PointX="10" PointY="8" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Models" Width="1.5" PointX="3" PointY="7.5" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Payments" Width="1.5" PointX="12.25" PointY="17.375" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Rental_data" Width="1.5" PointX="10" PointY="11.375" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.RentDetails" Width="1.5" PointX="12.25" PointY="9" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Role" Width="1.5" PointX="7.75" PointY="1.375" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Services" Width="1.5" PointX="7.75" PointY="11.875" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Tariff" Width="1.5" PointX="5.75" PointY="9.75" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Transmissions" Width="1.5" PointX="3" PointY="11.25" />
+        <EntityTypeShape EntityType="Car_Rent_SystemModel.Users" Width="1.5" PointX="10" PointY="1" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_Car_specifications_Brand_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_Model_Brand_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_Car_specifications_DriveUnit_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_Car_specifications_Engine_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_Car_specifications_Model_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_Car_specifications_Transmission_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_Cars_Spec_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_Cars_Car_Status_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_Rental_data_Client_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_ManagerRents_Manager_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_ManagerRents_Rent_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_Payments_Rent_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_Rent_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_Rental_data_Service_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK_Service_ID" />
+        <AssociationConnector Association="Car_Rent_SystemModel.FK__Users__RoleID__4E53A1AA" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

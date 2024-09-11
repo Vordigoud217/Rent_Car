@@ -1,0 +1,83 @@
+﻿<Page x:Class="RentSystem.Pages.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RentSystem.Pages"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d"
+      d:DesignHeight="550" d:DesignWidth="800"
+      Title="LoginPage">
+    <Grid>
+        <Border MinWidth="400"
+                MaxWidth="500"
+                VerticalAlignment="Center"
+                Padding="85"
+                CornerRadius="50"
+                BorderThickness="3"
+                Opacity="0.95">
+            <Border.Effect >
+                <DropShadowEffect BlurRadius="30" Color="BlueViolet"/>
+            </Border.Effect>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#060531" Offset="0"/>
+                    <GradientStop Color="#1B1448" Offset="0.75"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#462AD8" Offset="0"/>
+                    <GradientStop Color="#DA34AE" Offset="0.75"/>
+                    <GradientStop Color="#8A16C1" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+
+            <StackPanel Margin="-10, 10, -10, 10">
+                <TextBlock Text="Авторизация"
+                           Foreground="Beige"
+                           FontSize="28"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"
+                           Margin="10, 0, 15, 40"/>
+                <materialDesign:PackIcon Kind="HumanGreetingVariant" Margin="55, -60, 0, 0" 
+                                         Foreground="Beige"/>
+                <Grid Margin="0, 0, 0, 20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="11*"/>
+                        <ColumnDefinition Width="56*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="BRegistration"
+                            Foreground="Beige"
+                            Background="MediumSlateBlue"
+                            Content="Регистрация"
+                            Click="BRegistration_Click" Grid.Column="1" Margin="166,0,8,0"/>
+
+                    <Button x:Name="BEnter"
+                            IsDefault="True"
+                            Foreground="Beige"
+                            Background="MediumSlateBlue"
+                            HorizontalAlignment="Left"
+                            Width="100"
+                            Content="Войти"
+                            Click="BEnter_Click" Grid.Column="1" Margin="-55, 0, 0, 0"/>
+                </Grid>
+                <TextBox x:Name="TBLogin" Margin="0, 0, 0, 10"
+                         Foreground="Beige"
+                         materialDesign:HintAssist.Hint="Введите логин или номер телефона"
+                         materialDesign:HintAssist.IsFloating="True"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <StackPanel>
+                    <PasswordBox
+                        x:Name="TBPassword"
+                        Foreground="Beige"
+                        materialDesign:HintAssist.Hint="Введите пароль"
+                        materialDesign:PasswordBoxAssist.Password="{Binding Password2, Mode=TwoWay}"
+                        materialDesign:TextFieldAssist.HasClearButton="True"
+                        Style="{StaticResource MaterialDesignFloatingHintRevealPasswordBox}"
+                        />
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

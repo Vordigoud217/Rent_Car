@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Car_Rent_SystemModelContainer" CdmEntityContainer="Car_Rent_SystemEntities">
+    <EntitySetMapping Name="AuditRentalData">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.AuditRentalData">
+        <MappingFragment StoreEntitySet="AuditRentalData">
+          <ScalarProperty Name="AuditID" ColumnName="AuditID" />
+          <ScalarProperty Name="Operation" ColumnName="Operation" />
+          <ScalarProperty Name="Rent_ID" ColumnName="Rent_ID" />
+          <ScalarProperty Name="Car_ID" ColumnName="Car_ID" />
+          <ScalarProperty Name="Client_ID" ColumnName="Client_ID" />
+          <ScalarProperty Name="Service_ID" ColumnName="Service_ID" />
+          <ScalarProperty Name="Rent_Start_Date" ColumnName="Rent_Start_Date" />
+          <ScalarProperty Name="Rent_End_Date" ColumnName="Rent_End_Date" />
+          <ScalarProperty Name="Total_Rent_Cost" ColumnName="Total_Rent_Cost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Brands">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.Brands">
+        <MappingFragment StoreEntitySet="Brands">
+          <ScalarProperty Name="Brand_ID" ColumnName="Brand_ID" />
+          <ScalarProperty Name="BrandName" ColumnName="BrandName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Car_specifications">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.Car_specifications">
+        <MappingFragment StoreEntitySet="Car_specifications">
+          <ScalarProperty Name="Spec_ID" ColumnName="Spec_ID" />
+          <ScalarProperty Name="Model_ID" ColumnName="Model_ID" />
+          <ScalarProperty Name="Engine" ColumnName="Engine" />
+          <ScalarProperty Name="Transmission" ColumnName="Transmission" />
+          <ScalarProperty Name="DriveUnit" ColumnName="DriveUnit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Car_Status">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.Car_Status">
+        <MappingFragment StoreEntitySet="Car_Status">
+          <ScalarProperty Name="Car_Status_ID" ColumnName="Car_Status_ID" />
+          <ScalarProperty Name="Car_Status_Description" ColumnName="Car_Status_Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cars">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.Cars">
+        <MappingFragment StoreEntitySet="Cars">
+          <ScalarProperty Name="Car_ID" ColumnName="Car_ID" />
+          <ScalarProperty Name="Spec_ID" ColumnName="Spec_ID" />
+          <ScalarProperty Name="Car_Status_ID" ColumnName="Car_Status_ID" />
+          <ScalarProperty Name="Tariff_ID" ColumnName="Tariff_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.Clients">
+        <MappingFragment StoreEntitySet="Clients">
+          <ScalarProperty Name="Client_ID" ColumnName="Client_ID" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="DeliveryAdress" ColumnName="DeliveryAdress" />
+          <ScalarProperty Name="DrivingExperience" ColumnName="DrivingExperience" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="EMail" ColumnName="EMail" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ManagerRents">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.ManagerRents">
+        <MappingFragment StoreEntitySet="ManagerRents">
+          <ScalarProperty Name="ManagerRent_ID" ColumnName="ManagerRent_ID" />
+          <ScalarProperty Name="Manager_ID" ColumnName="Manager_ID" />
+          <ScalarProperty Name="Rent_ID" ColumnName="Rent_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Managers">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.Managers">
+        <MappingFragment StoreEntitySet="Managers">
+          <ScalarProperty Name="Manager_ID" ColumnName="Manager_ID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="SecondName" ColumnName="SecondName" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Models">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.Models">
+        <MappingFragment StoreEntitySet="Models">
+          <ScalarProperty Name="Model_ID" ColumnName="Model_ID" />
+          <ScalarProperty Name="ModelName" ColumnName="ModelName" />
+          <ScalarProperty Name="Release_Year" ColumnName="Release_Year" />
+          <ScalarProperty Name="Colour" ColumnName="Colour" />
+          <ScalarProperty Name="Brand_ID" ColumnName="Brand_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.Payments">
+        <MappingFragment StoreEntitySet="Payments">
+          <ScalarProperty Name="Payment_ID" ColumnName="Payment_ID" />
+          <ScalarProperty Name="Rent_ID" ColumnName="Rent_ID" />
+          <ScalarProperty Name="Payment_Date" ColumnName="Payment_Date" />
+          <ScalarProperty Name="Payment_Status" ColumnName="Payment_Status" />
+          <ScalarProperty Name="Payment_Amount" ColumnName="Payment_Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rental_data">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.Rental_data">
+        <MappingFragment StoreEntitySet="Rental_data">
+          <ScalarProperty Name="Rent_ID" ColumnName="Rent_ID" />
+          <ScalarProperty Name="Car_ID" ColumnName="Car_ID" />
+          <ScalarProperty Name="Client_ID" ColumnName="Client_ID" />
+          <ScalarProperty Name="Service_ID" ColumnName="Service_ID" />
+          <ScalarProperty Name="Rent_Start_Date" ColumnName="Rent_Start_Date" />
+          <ScalarProperty Name="Rent_End_Date" ColumnName="Rent_End_Date" />
+          <ScalarProperty Name="Total_Rent_Cost" ColumnName="Total_Rent_Cost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RentDetails">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.RentDetails">
+        <MappingFragment StoreEntitySet="RentDetails">
+          <ScalarProperty Name="RentDetails_ID" ColumnName="RentDetails_ID" />
+          <ScalarProperty Name="Rent_ID" ColumnName="Rent_ID" />
+          <ScalarProperty Name="Service_ID" ColumnName="Service_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Role">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Services">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.Services">
+        <MappingFragment StoreEntitySet="Services">
+          <ScalarProperty Name="Service_ID" ColumnName="Service_ID" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="Service_Description" ColumnName="Service_Description" />
+          <ScalarProperty Name="Service_Cost" ColumnName="Service_Cost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tariff">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.Tariff">
+        <MappingFragment StoreEntitySet="Tariff">
+          <ScalarProperty Name="Tariff_ID" ColumnName="Tariff_ID" />
+          <ScalarProperty Name="Daily_Cost" ColumnName="Daily_Cost" />
+          <ScalarProperty Name="Daily_Cost_Per_Week" ColumnName="Daily_Cost_Per_Week" />
+          <ScalarProperty Name="Daily_Cost_Per_Month" ColumnName="Daily_Cost_Per_Month" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Car_Rent_SystemModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

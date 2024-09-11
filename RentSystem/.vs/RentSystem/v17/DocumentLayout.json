@@ -1,0 +1,284 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\rentsystem\\pages\\catalogpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\pages\\catalogpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\rentsystem\\pages\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\pages\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|c:\\users\\\u0438\u0431\u0440\u0430\u0433\u0438\u043C\\desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\rentsystem\\rentsystem\\dbmodel\\modelcarrentsystem.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\dbmodel\\modelcarrentsystem.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\rentsystem\\pages\\addcarpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\pages\\addcarpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|c:\\users\\\u0438\u0431\u0440\u0430\u0433\u0438\u043C\\desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\rentsystem\\rentsystem\\pages\\addcarpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\pages\\addcarpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\rentsystem\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|c:\\users\\\u0438\u0431\u0440\u0430\u0433\u0438\u043C\\desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\rentsystem\\rentsystem\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\rentsystem\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\rentsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\rentsystem\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\rentsystem\\pages\\basketpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\pages\\basketpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\rentsystem\\pages\\basketpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\pages\\basketpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\rentsystem\\pages\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\pages\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\rentsystem\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\rentsystem\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\rentsystem\\pages\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{144314C5-4DD1-4069-A4FF-CC85879681CE}|RentSystem\\RentSystem.csproj|solutionrelative:rentsystem\\pages\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\HomePage.xaml",
+              "RelativeDocumentMoniker": "RentSystem\\Pages\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\HomePage.xaml",
+              "RelativeToolTip": "RentSystem\\Pages\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T18:28:45.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddCarPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\AddCarPage.xaml.cs",
+              "RelativeDocumentMoniker": "RentSystem\\Pages\\AddCarPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\AddCarPage.xaml.cs",
+              "RelativeToolTip": "RentSystem\\Pages\\AddCarPage.xaml.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAUwDkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T20:02:15.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\RegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "RentSystem\\Pages\\RegistrationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "RentSystem\\Pages\\RegistrationPage.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAiwCMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T20:42:58.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "RentSystem\\Pages\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\HomePage.xaml.cs",
+              "RelativeToolTip": "RentSystem\\Pages\\HomePage.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T19:08:00.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CatalogPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\CatalogPage.xaml.cs",
+              "RelativeDocumentMoniker": "RentSystem\\Pages\\CatalogPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\CatalogPage.xaml.cs",
+              "RelativeToolTip": "RentSystem\\Pages\\CatalogPage.xaml.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAwwHEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T11:13:05.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "RentSystem\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\LoginPage.xaml.cs",
+              "RelativeToolTip": "RentSystem\\Pages\\LoginPage.xaml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAnwC4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T20:47:34.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CatalogPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\CatalogPage.xaml",
+              "RelativeDocumentMoniker": "RentSystem\\Pages\\CatalogPage.xaml",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\CatalogPage.xaml",
+              "RelativeToolTip": "RentSystem\\Pages\\CatalogPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-20T21:09:37.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddCarPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\AddCarPage.xaml",
+              "RelativeDocumentMoniker": "RentSystem\\Pages\\AddCarPage.xaml",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\AddCarPage.xaml",
+              "RelativeToolTip": "RentSystem\\Pages\\AddCarPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-05T19:51:45.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModelCarRentSystem.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\DBModel\\ModelCarRentSystem.edmx",
+              "RelativeDocumentMoniker": "RentSystem\\DBModel\\ModelCarRentSystem.edmx",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\DBModel\\ModelCarRentSystem.edmx [Diagram1]",
+              "RelativeToolTip": "RentSystem\\DBModel\\ModelCarRentSystem.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-09-11T19:55:29.542Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BasketPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\BasketPage.xaml",
+              "RelativeDocumentMoniker": "RentSystem\\Pages\\BasketPage.xaml",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\BasketPage.xaml",
+              "RelativeToolTip": "RentSystem\\Pages\\BasketPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-20T21:11:32.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BasketPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\BasketPage.xaml.cs",
+              "RelativeDocumentMoniker": "RentSystem\\Pages\\BasketPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\BasketPage.xaml.cs",
+              "RelativeToolTip": "RentSystem\\Pages\\BasketPage.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:13:03.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "RentSystem\\Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "RentSystem\\Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-11T19:39:04.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "RentSystem\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "RentSystem\\Pages\\MainPage.xaml.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAEwFQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T11:13:05.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RentSystem\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\MainWindow.xaml.cs",
+              "RelativeToolTip": "RentSystem\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAD4vxoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:04:08.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "RentSystem\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "RentSystem\\Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-23T13:27:58.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "RentSystem\\Pages\\RegistrationPage.xaml",
+              "ToolTip": "C:\\Users\\\u0418\u0431\u0440\u0430\u0433\u0438\u043C\\Desktop\\\u043A\u0430\u0447\u0430\u043B\u0438\\RentSystem\\RentSystem\\Pages\\RegistrationPage.xaml",
+              "RelativeToolTip": "RentSystem\\Pages\\RegistrationPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T20:42:57.105Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
