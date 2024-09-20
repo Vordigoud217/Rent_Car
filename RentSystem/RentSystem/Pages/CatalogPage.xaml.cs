@@ -16,6 +16,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Collections.ObjectModel;
 
 namespace RentSystem.Pages
 {
@@ -53,63 +54,13 @@ namespace RentSystem.Pages
             }
 
             InitializeComponent();
-            Ugari();
+            LvCarMenu.ItemsSource = App.Db.Car_specifications.ToList();
             CbCarBrand.ItemsSource = brands;
             CbCarModel.ItemsSource = models;
             CbCarEngine.ItemsSource = engines;
             CbCarDriveUnit.ItemsSource = driveUnits;
             CbCarTransmission.ItemsSource = transmissions;
             RefreshCars();
-        }
-
-        public void Ugari()
-        {
-            //var carModels = App.Db.Cars.Include("Car_specifications.Models").ToList();
-            //var carBrands = App.Db.Cars.Include("Car_specifications.Brands").ToList();
-            //var carDriveUnits = App.Db.Cars.Include("Car_specifications.DriveUnits").ToList();
-            //var carTransmissions = App.Db.Cars.Include("Car_specifications.Transmissions").ToList();
-            //var carEngines = App.Db.Cars.Include("Car_specifications.Engines").ToList();
-            //var carAll = carModels.Union(carBrands);
-
-            //var cars = carAll.Select(x => new
-            //{
-            //    ImageCar = x.Car_specifications.ImageCar,
-            //    Brand = x.Car_specifications.Brands.Brand_ID,
-            //    Model = x.Car_specifications.Models.Model_ID,
-            //    Engine = x.Car_specifications.Engines.Engine_ID,
-            //    Transmission = x.Car_specifications.Transmissions.Transmission_ID,
-            //    DriveUnit = x.Car_specifications.DriveUnits.DriveUnit_ID,
-            //    CarModel = carModels.Select(z => new
-            //    {
-            //        ModelCar = z.Car_specifications.Models.ModelName
-            //    }).ToList(),
-            //    CarBrand = carBrands.Select(y => new
-            //    {
-            //        BrandCar = y.Car_specifications.Brands.BrandName
-            //    }).ToList(),
-            //    CarDriveUnits = carDriveUnits.Select(f => new
-            //    {
-            //        DriveUnitCar = f.Car_specifications.DriveUnits.DriveUnit
-            //    }).ToList(),
-            //    CarTransmissions = carTransmissions.Select(g => new
-            //    {
-            //        TransmissionCar = g.Car_specifications.Transmissions.Transmission
-            //    }).ToList(),
-            //    CarEngines = carEngines.Select(h => new
-            //    {
-            //        EngineCar = h.Car_specifications.Engines.Engine
-            //    }).ToList(),
-            //}).ToList();
-            //LvCarMenu.ItemsSource = cars;
-
-            var cars = App.Db.Car_specifications.Select(x => new { 
-                Model = x.Models.ModelName,
-                Brand = x.Brands.BrandName,
-                DriveUnit = x.DriveUnits.DriveUnit,
-                Engine = x.Engines.Engine,
-                Transmission = x.Transmissions.Transmission
-            }).ToList();
-            LvCarMenu.ItemsSource = cars;
         }
 
         private void BtResetOptions_Click(object sender, RoutedEventArgs e)
@@ -125,12 +76,10 @@ namespace RentSystem.Pages
         {
             RefreshCars();
         }
-
         private void CbCarModel_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             RefreshCars();
         }
-
         private void CbCarEngine_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             RefreshCars();
@@ -143,7 +92,6 @@ namespace RentSystem.Pages
         {
             RefreshCars();
         }
-
         private void RefreshCars()
         {
             var a = App.Db.Car_specifications.ToList();
@@ -172,7 +120,7 @@ namespace RentSystem.Pages
             if(CbCarTransmission.SelectedItem != null)
             {
                 a = a.Where(x => x.Transmissions.Transmission == carTransmission.ToString()).ToList();
-            }
+            }            
             LvCarMenu.ItemsSource = a;
         }
 
@@ -193,7 +141,6 @@ namespace RentSystem.Pages
         {
             LvCarMenu.Items.Refresh();
         }
-
 
         private void BtAddCar_Click(object sender, RoutedEventArgs e)
         {

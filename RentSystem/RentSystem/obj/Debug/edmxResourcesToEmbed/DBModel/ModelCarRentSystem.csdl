@@ -120,6 +120,7 @@
     <Property Name="Transmission_ID" Type="Int32" Nullable="false" />
     <Property Name="DriveUnit_ID" Type="Int32" Nullable="false" />
     <Property Name="ImageCar" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Price" Type="Int32" />
     <NavigationProperty Name="Brands" Relationship="Car_Rent_SystemModel.FK_Car_specifications_Brand_ID" FromRole="Car_specifications" ToRole="Brands" />
     <NavigationProperty Name="DriveUnits" Relationship="Car_Rent_SystemModel.FK_Car_specifications_DriveUnit_ID" FromRole="Car_specifications" ToRole="DriveUnits" />
     <NavigationProperty Name="Engines" Relationship="Car_Rent_SystemModel.FK_Car_specifications_Engine_ID" FromRole="Car_specifications" ToRole="Engines" />
@@ -142,7 +143,6 @@
     <Property Name="Car_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Spec_ID" Type="Int32" Nullable="false" />
     <Property Name="Car_Status_ID" Type="Int32" />
-    <Property Name="Price" Type="Int32" />
     <NavigationProperty Name="Car_specifications" Relationship="Car_Rent_SystemModel.FK_Cars_Spec_ID" FromRole="Cars" ToRole="Car_specifications" />
     <NavigationProperty Name="Car_Status" Relationship="Car_Rent_SystemModel.FK_Cars_Car_Status_ID" FromRole="Cars" ToRole="Car_Status" />
   </EntityType>

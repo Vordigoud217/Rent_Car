@@ -20,18 +20,18 @@ drop column Insurance_ID
 
 --Таблица "Клиенты"
 
-CREATE TABLE Clients
-(
-	Client_ID int constraint PK_Client_ID PRIMARY KEY identity,
-	Surname varchar(40) NOT NULL,
-	Name varchar(40) NOT NULL,
-	DeliveryAdress varchar(40) NOT NULL,
-	Age int constraint CK_Age CHECK(Age >= 21),
-	DrivingExperience int constraint CK_DrivingExperience CHECK(DrivingExperience >= 2),
-	Phone decimal(12,0) constraint Phone_UNIQ UNIQUE,
-	EMail varchar(255) constraint EMail_UNIQ UNIQUE NOT NULL
-)
-SELECT * FROM Clients
+--CREATE TABLE Clients
+--(
+--	Client_ID int constraint PK_Client_ID PRIMARY KEY identity,
+--	Surname varchar(40) NOT NULL,
+--	Name varchar(40) NOT NULL,
+--	DeliveryAdress varchar(40) NOT NULL,
+--	Age int constraint CK_Age CHECK(Age >= 21),
+--	DrivingExperience int constraint CK_DrivingExperience CHECK(DrivingExperience >= 2),
+--	Phone decimal(12,0) constraint Phone_UNIQ UNIQUE,
+--	EMail varchar(255) constraint EMail_UNIQ UNIQUE NOT NULL
+--)
+--SELECT * FROM Clients
 
 alter table Clients
 add BirthDate date null
@@ -53,64 +53,64 @@ add ImageCar image null
 
 --Таблица "Арендные данные"
 
-CREATE TABLE Rental_data
-(
-	Rent_ID int constraint PK_Rent_ID PRIMARY KEY identity,
-	Car_ID int constraint FK_Rental_data_Car_ID FOREIGN KEY REFERENCES Cars(Car_ID) ON DELETE CASCADE NOT NULL,
-	Client_ID int constraint FK_Rental_data_Client_ID FOREIGN KEY REFERENCES Clients(Client_ID) ON DELETE CASCADE NOT NULL,
-	Service_ID int constraint FK_Rental_data_Service_ID FOREIGN KEY REFERENCES [Services](Service_ID) ON DELETE SET NULL,
-	Rent_Start_Date datetime NOT NULL,
-	Rent_End_Date datetime NOT NULL,
-	Total_Rent_Cost money
-)
-SELECT * FROM Rental_data
+--CREATE TABLE Rental_data
+--(
+--	Rent_ID int constraint PK_Rent_ID PRIMARY KEY identity,
+--	Car_ID int constraint FK_Rental_data_Car_ID FOREIGN KEY REFERENCES Cars(Car_ID) ON DELETE CASCADE NOT NULL,
+--	Client_ID int constraint FK_Rental_data_Client_ID FOREIGN KEY REFERENCES Clients(Client_ID) ON DELETE CASCADE NOT NULL,
+--	Service_ID int constraint FK_Rental_data_Service_ID FOREIGN KEY REFERENCES [Services](Service_ID) ON DELETE SET NULL,
+--	Rent_Start_Date datetime NOT NULL,
+--	Rent_End_Date datetime NOT NULL,
+--	Total_Rent_Cost money
+--)
+--SELECT * FROM Rental_data
 
 --Таблица "Детали аренды"
 
-create table RentDetails
-(
-	RentDetails_ID int constraint PK_RentDetails_ID PRIMARY KEY identity,
-	Rent_ID int constraint FK_Rent_ID foreign key references Rental_data(Rent_ID),
-	Service_ID int constraint FK_Service_ID foreign key references [Services](Service_ID)
-)
+--create table RentDetails
+--(
+--	RentDetails_ID int constraint PK_RentDetails_ID PRIMARY KEY identity,
+--	Rent_ID int constraint FK_Rent_ID foreign key references Rental_data(Rent_ID),
+--	Service_ID int constraint FK_Service_ID foreign key references [Services](Service_ID)
+--)
 
-CREATE TABLE [Services]
-(
-	Service_ID int constraint PK_Service_ID PRIMARY KEY identity,
-	ServiceName varchar(40) NOT NULL,
-	Service_Description varchar(250),
-	Service_Cost money NOT NULL
-)
-SELECT * FROM [Services]
+--CREATE TABLE [Services]
+--(
+--	Service_ID int constraint PK_Service_ID PRIMARY KEY identity,
+--	ServiceName varchar(40) NOT NULL,
+--	Service_Description varchar(250),
+--	Service_Cost money NOT NULL
+--)
+--SELECT * FROM [Services]
 
 --Таблица "Статус автомобиля"
-CREATE TABLE Car_Status
-(
-	Car_Status_ID int constraint PK_Car_Status_ID PRIMARY KEY identity,
-	Car_Status_Description varchar(40) NOT NULL
-)
-SELECT * FROM Car_Status
+--CREATE TABLE Car_Status
+--(
+--	Car_Status_ID int constraint PK_Car_Status_ID PRIMARY KEY identity,
+--	Car_Status_Description varchar(40) NOT NULL
+--)
+--SELECT * FROM Car_Status
 
 --Таблица "Платежи"
 
-CREATE TABLE Payments
-(
-	Payment_ID int constraint PK_Payment_ID PRIMARY KEY identity,
-	Rent_ID int constraint FK_Payments_Rent_ID FOREIGN KEY REFERENCES Rental_data(Rent_ID) ON DELETE CASCADE NOT NULL,
-	Payment_Date datetime,
-	Payment_Status varchar(40) constraint DF_Payment_Status DEFAULT 'Оплачено',
-	Payment_Amount money NOT NULL
-)
-SELECT * FROM Payments
+--CREATE TABLE Payments
+--(
+--	Payment_ID int constraint PK_Payment_ID PRIMARY KEY identity,
+--	Rent_ID int constraint FK_Payments_Rent_ID FOREIGN KEY REFERENCES Rental_data(Rent_ID) ON DELETE CASCADE NOT NULL,
+--	Payment_Date datetime,
+--	Payment_Status varchar(40) constraint DF_Payment_Status DEFAULT 'Оплачено',
+--	Payment_Amount money NOT NULL
+--)
+--SELECT * FROM Payments
 
 --Таблица "Тариффы"
 
-CREATE TABLE Tariff
-(
-	Tariff_ID int constraint PK_Tariff_ID PRIMARY KEY identity,
-	Daily_Cost money NOT NULL
-)
-SELECT * FROM Tariff
+--CREATE TABLE Tariff
+--(
+--	Tariff_ID int constraint PK_Tariff_ID PRIMARY KEY identity,
+--	Daily_Cost money NOT NULL
+--)
+--SELECT * FROM Tariff
 
 --Таблица "Спецификации автомобилей"
 
@@ -122,6 +122,7 @@ CREATE TABLE Car_specifications
 	Engine_ID int constraint FK_Car_specifications_Engine_ID FOREIGN KEY REFERENCES Engines(Engine_ID) NOT NULL,
 	Transmission_ID int constraint FK_Car_specifications_Transmission_ID FOREIGN KEY REFERENCES Transmissions(Transmission_ID) NOT NULL,
 	DriveUnit_ID int constraint FK_Car_specifications_DriveUnit_ID FOREIGN KEY REFERENCES DriveUnits(DriveUnit_ID) NOT NULL
+	price int
 )
 SELECT * FROM Car_specifications
 
@@ -178,51 +179,24 @@ SELECT * FROM Models
 
 --Таблица "Менеджеры"
 
-CREATE TABLE Managers
-(
-	Manager_ID int constraint PK_Manager_ID PRIMARY KEY identity,
-	FirstName varchar(40),
-	SecondName varchar(40),
-	Age int constraint CH_Age CHECK(Age >= 23)
-)
-SELECT * FROM Managers
+--CREATE TABLE Managers
+--(
+--	Manager_ID int constraint PK_Manager_ID PRIMARY KEY identity,
+--	FirstName varchar(40),
+--	SecondName varchar(40),
+--	Age int constraint CH_Age CHECK(Age >= 23)
+--)
+--SELECT * FROM Managers
 
 --Таблица "Менеджеры ии Аренда"
 
-CREATE TABLE ManagerRents
-(
-	ManagerRent_ID int constraint PK_ManagerRent_ID PRIMARY KEY identity,
-	Manager_ID int constraint FK_ManagerRents_Manager_ID FOREIGN KEY REFERENCES Managers(Manager_ID) ON DELETE CASCADE NOT NULL,
-	Rent_ID int constraint FK_ManagerRents_Rent_ID FOREIGN KEY REFERENCES Rental_data(Rent_ID) ON DELETE CASCADE NOT NULL,
-)
+--CREATE TABLE ManagerRents
+--(
+--	ManagerRent_ID int constraint PK_ManagerRent_ID PRIMARY KEY identity,
+--	Manager_ID int constraint FK_ManagerRents_Manager_ID FOREIGN KEY REFERENCES Managers(Manager_ID) ON DELETE CASCADE NOT NULL,
+--	Rent_ID int constraint FK_ManagerRents_Rent_ID FOREIGN KEY REFERENCES Rental_data(Rent_ID) ON DELETE CASCADE NOT NULL,
+--)
 SELECT * FROM ManagerRents
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 -- Представление всех клиентов и их арендованных автомобилей
 CREATE VIEW ClientsAndCars AS
 SELECT Clients.Client_ID, Clients.Surname, Clients.Name, Cars.Car_ID

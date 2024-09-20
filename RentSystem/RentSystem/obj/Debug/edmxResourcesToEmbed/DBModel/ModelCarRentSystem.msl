@@ -27,6 +27,7 @@
     <EntitySetMapping Name="Car_specifications">
       <EntityTypeMapping TypeName="Car_Rent_SystemModel.Car_specifications">
         <MappingFragment StoreEntitySet="Car_specifications">
+          <ScalarProperty Name="Price" ColumnName="Price" />
           <ScalarProperty Name="ImageCar" ColumnName="ImageCar" />
           <ScalarProperty Name="DriveUnit_ID" ColumnName="DriveUnit_ID" />
           <ScalarProperty Name="Transmission_ID" ColumnName="Transmission_ID" />
@@ -48,7 +49,6 @@
     <EntitySetMapping Name="Cars">
       <EntityTypeMapping TypeName="Car_Rent_SystemModel.Cars">
         <MappingFragment StoreEntitySet="Cars">
-          <ScalarProperty Name="Price" ColumnName="Price" />
           <ScalarProperty Name="Car_Status_ID" ColumnName="Car_Status_ID" />
           <ScalarProperty Name="Spec_ID" ColumnName="Spec_ID" />
           <ScalarProperty Name="Car_ID" ColumnName="Car_ID" />

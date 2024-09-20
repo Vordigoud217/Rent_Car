@@ -90,6 +90,7 @@ namespace RentSystem.Pages
                 engines = CbEngine.SelectedItem.ToString();
                 car.Engine_ID = App.Db.Car_specifications.FirstOrDefault(x => x.Engines.Engine == engines).Engine_ID;
             }
+
             else
             {
                 MessageBox.Show("Выберите двигатель!");
@@ -100,7 +101,8 @@ namespace RentSystem.Pages
             {
                 price = TbPrice.Text;
             }
-            else 
+
+            else
             {
                 MessageBox.Show("Введите цену!");
                 return;
@@ -111,6 +113,7 @@ namespace RentSystem.Pages
             car.DriveUnit_ID = App.Db.DriveUnits.FirstOrDefault(x => x.DriveUnit == driveUnits).DriveUnit_ID;
             car.Transmission_ID = App.Db.Transmissions.FirstOrDefault(x => x.Transmission == transmissions).Transmission_ID;
             car.Engine_ID = App.Db.Engines.FirstOrDefault(x => x.Engine == engines).Engine_ID;
+            car.Price = int.Parse(TbPrice.Text);
 
             App.Db.Car_specifications.Add(car);
             App.Db.SaveChanges();
@@ -118,7 +121,6 @@ namespace RentSystem.Pages
             Cars newCar = new Cars
             {
                 Spec_ID = App.Db.Car_specifications.OrderByDescending(x => x.Spec_ID).Select(x => x.Spec_ID).FirstOrDefault(),
-                Price = int.Parse(price),
                 Car_Status_ID = 1
             };
 
@@ -161,7 +163,6 @@ namespace RentSystem.Pages
                 transmissions.Add(transmission.Transmission);
             }
 
-            InitializeComponent();
             CbBrand.ItemsSource = brands;
             CbModel.ItemsSource = models;
             CbEngine.ItemsSource = engines;

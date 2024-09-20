@@ -12,14 +12,14 @@ VALUES
 	(8, 1, 8),
 	(9, 1, 9),
 	(10, 1, 10)
-
 SELECT * FROM Cars
 SELECT * FROM Car_specifications
 SELECT * FROM Car_Status
 SELECT * FROM Tariff
 SELECT * FROM Brands
 
-
+Alter table Car_specifications
+add Price int 
 
 INSERT INTO Clients (Surname, Name, Age, DeliveryAdress, DrivingExperience, Phone, EMail)
 VALUES

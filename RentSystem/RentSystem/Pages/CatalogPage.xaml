@@ -94,7 +94,7 @@
                                     Padding="5"
                                     Margin="0 0 0 0"
                                     Width="280"
-                                    Height="310">
+                                    Height="325">
                             <StackPanel>
                                 <StackPanel>
                                     <Border CornerRadius="30">
@@ -103,22 +103,22 @@
                                         </Image>
                                     </Border>
                                     <StackPanel>
-                                        <TextBlock Text="{Binding Model, StringFormat='{}Модель: {0}'}" Margin="0 15 0 0" FontWeight="ExtraBlack" Foreground="Black"/>
-                                        <TextBlock Text="{Binding Brand, StringFormat='{}Марка: {0}'}" FontWeight="Bold"/>
-                                        <TextBlock Text="{Binding Engine, StringFormat='{}Двигатель: {0}'}" FontWeight="Bold"/>
-                                        <TextBlock Text="{Binding Transmission, StringFormat='{}Трансмиссия: {0}'}" FontWeight="Bold"/>
-                                        <TextBlock Text="{Binding DriveUnit, StringFormat='{}Привод: {0}'}" FontWeight="Bold"/>
+                                        <TextBlock Text="{Binding Models.ModelName, StringFormat='{}Модель: {0}'}" Margin="0 15 0 0" FontWeight="ExtraBlack" Foreground="Black"/>
+                                        <TextBlock Text="{Binding Brands.BrandName, StringFormat='{}Марка: {0}'}" FontWeight="Bold"/>
+                                        <TextBlock Text="{Binding Engines.Engine, StringFormat='{}Двигатель: {0}'}" FontWeight="Bold"/>
+                                        <TextBlock Text="{Binding Transmissions.Transmission, StringFormat='{}Трансмиссия: {0}'}" FontWeight="Bold"/>
+                                        <TextBlock Text="{Binding DriveUnits.DriveUnit, StringFormat='{}Привод: {0}'}" FontWeight="Bold"/>
                                         <TextBlock Text="{Binding Price, StringFormat='{}Цена: {0}'}" FontWeight="Bold"/>
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
                                         <Button x:Name="BtImage"
                                                 Width="100"
                                                 Height="35"
-                                                Content="Добавить" Margin="5" Click="BtImage_Click">
+                                                Content="Изменить" Margin="5" Click="BtImage_Click">
                                             <Button.Style>
                                                 <Style TargetType="Button">
                                                     <Style.Triggers>
-                                                        <DataTrigger Binding="{Binding ElementName=PCatalogPage, Path=DataContext.RoleID}" Value="1">
+                                                        <DataTrigger Binding="{Binding ElementName =PCatalogPage, Path=DataContext.RoleID}" Value="1">
                                                             <Setter Property="Visibility" Value="Hidden"/>
                                                         </DataTrigger>
                                                     </Style.Triggers>
@@ -128,7 +128,6 @@
                                         <Button x:Name="BtDelete" Width="100" Height="35" Content="Удалить" Margin="5" Click="BtDelete_Click">
                                             
                                         </Button>
-
                                     </StackPanel>
                                 </StackPanel>
                             </StackPanel>

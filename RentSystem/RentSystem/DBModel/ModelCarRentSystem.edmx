@@ -37,6 +37,7 @@
           <Property Name="Transmission_ID" Type="int" Nullable="false" />
           <Property Name="DriveUnit_ID" Type="int" Nullable="false" />
           <Property Name="ImageCar" Type="image" />
+          <Property Name="Price" Type="int" />
         </EntityType>
         <EntityType Name="Car_Status">
           <Key>
@@ -52,7 +53,6 @@
           <Property Name="Car_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Spec_ID" Type="int" Nullable="false" />
           <Property Name="Car_Status_ID" Type="int" />
-          <Property Name="Price" Type="int" />
         </EntityType>
         <EntityType Name="Clients">
           <Key>
@@ -601,6 +601,7 @@
           <Property Name="Transmission_ID" Type="Int32" Nullable="false" />
           <Property Name="DriveUnit_ID" Type="Int32" Nullable="false" />
           <Property Name="ImageCar" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Price" Type="Int32" />
           <NavigationProperty Name="Brands" Relationship="Car_Rent_SystemModel.FK_Car_specifications_Brand_ID" FromRole="Car_specifications" ToRole="Brands" />
           <NavigationProperty Name="DriveUnits" Relationship="Car_Rent_SystemModel.FK_Car_specifications_DriveUnit_ID" FromRole="Car_specifications" ToRole="DriveUnits" />
           <NavigationProperty Name="Engines" Relationship="Car_Rent_SystemModel.FK_Car_specifications_Engine_ID" FromRole="Car_specifications" ToRole="Engines" />
@@ -623,7 +624,6 @@
           <Property Name="Car_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Spec_ID" Type="Int32" Nullable="false" />
           <Property Name="Car_Status_ID" Type="Int32" />
-          <Property Name="Price" Type="Int32" />
           <NavigationProperty Name="Car_specifications" Relationship="Car_Rent_SystemModel.FK_Cars_Spec_ID" FromRole="Cars" ToRole="Car_specifications" />
           <NavigationProperty Name="Car_Status" Relationship="Car_Rent_SystemModel.FK_Cars_Car_Status_ID" FromRole="Cars" ToRole="Car_Status" />
         </EntityType>
@@ -1017,6 +1017,7 @@
           <EntitySetMapping Name="Car_specifications">
             <EntityTypeMapping TypeName="Car_Rent_SystemModel.Car_specifications">
               <MappingFragment StoreEntitySet="Car_specifications">
+                <ScalarProperty Name="Price" ColumnName="Price" />
                 <ScalarProperty Name="ImageCar" ColumnName="ImageCar" />
                 <ScalarProperty Name="DriveUnit_ID" ColumnName="DriveUnit_ID" />
                 <ScalarProperty Name="Transmission_ID" ColumnName="Transmission_ID" />
@@ -1038,7 +1039,6 @@
           <EntitySetMapping Name="Cars">
             <EntityTypeMapping TypeName="Car_Rent_SystemModel.Cars">
               <MappingFragment StoreEntitySet="Cars">
-                <ScalarProperty Name="Price" ColumnName="Price" />
                 <ScalarProperty Name="Car_Status_ID" ColumnName="Car_Status_ID" />
                 <ScalarProperty Name="Spec_ID" ColumnName="Spec_ID" />
                 <ScalarProperty Name="Car_ID" ColumnName="Car_ID" />

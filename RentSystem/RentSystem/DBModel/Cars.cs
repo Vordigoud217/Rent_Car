@@ -17,7 +17,6 @@ namespace RentSystem.DBModel
         public int Car_ID { get; set; }
         public int Spec_ID { get; set; }
         public Nullable<int> Car_Status_ID { get; set; }
-        public Nullable<int> Price { get; set; }
     
         public virtual Car_specifications Car_specifications { get; set; }
         public virtual Car_Status Car_Status { get; set; }

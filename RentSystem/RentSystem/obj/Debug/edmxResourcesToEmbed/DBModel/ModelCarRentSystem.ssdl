@@ -32,6 +32,7 @@
     <Property Name="Transmission_ID" Type="int" Nullable="false" />
     <Property Name="DriveUnit_ID" Type="int" Nullable="false" />
     <Property Name="ImageCar" Type="image" />
+    <Property Name="Price" Type="int" />
   </EntityType>
   <EntityType Name="Car_Status">
     <Key>
@@ -47,7 +48,6 @@
     <Property Name="Car_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Spec_ID" Type="int" Nullable="false" />
     <Property Name="Car_Status_ID" Type="int" />
-    <Property Name="Price" Type="int" />
   </EntityType>
   <EntityType Name="Clients">
     <Key>

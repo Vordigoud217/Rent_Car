@@ -27,6 +27,7 @@ namespace RentSystem.DBModel
         public int Transmission_ID { get; set; }
         public int DriveUnit_ID { get; set; }
         public byte[] ImageCar { get; set; }
+        public Nullable<int> Price { get; set; }
     
         public virtual Brands Brands { get; set; }
         public virtual DriveUnits DriveUnits { get; set; }
